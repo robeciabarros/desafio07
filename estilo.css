@@ -1,0 +1,113 @@
+body{
+    background-color: #d1c9d2;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho{
+    background-image: url(imagens/nave_editada.png);
+    height: 800px;
+    background-size: cover;
+    background-position: right center;
+    padding-top: 1px;
+    background-attachment: fixed;
+}
+
+.div-cabecalho{
+    /* background-color: #7fffd4; */
+    margin: 250px auto 0 auto;
+    width: 80%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.div-cabecalho h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.div-cabecalho a{
+    background-color: #f3ebf5;
+    color: #3F1973;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.div-cabecalho a:hover{
+    background-color: #3F1973;
+    color: #f3ebf5;
+}
+
+.cabecalho nav ul{
+    /* background-color: #ffffff; */
+    margin: 25px 40px 0 0;
+    text-align: right;
+}
+
+.cabecalho nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.cabecalho nav a{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #3F1973;
+    padding: 5px;
+    border-radius: 5px;
+}
+.cabecalho nav a:hover{
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #3F1973;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+}
+section{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+article{
+    background-color: #ffffff;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+article h2{
+    background-color: #d49de4;
+    color: #624973;
+    margin-top: 0;
+    text-align: center;
+}
+
+.config-img{
+    height: 80px;
+    float: left;
+    padding-right: 5px;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+footer{
+    background-color: #A44EA6;
+    padding: 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+}
